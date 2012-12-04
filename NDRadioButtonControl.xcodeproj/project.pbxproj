@@ -18,6 +18,7 @@
 		D8FDCB90166E157C00E2606A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8FDCB8F166E157C00E2606A /* Default-568h@2x.png */; };
 		D8FDCB93166E157C00E2606A /* NDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDCB92166E157C00E2606A /* NDViewController.m */; };
 		D8FDCB96166E157C00E2606A /* NDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FDCB94166E157C00E2606A /* NDViewController.xib */; };
+		D8FDCB9F166E167D00E2606A /* NDRadioButtonControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FDCB9E166E167D00E2606A /* NDRadioButtonControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		D8FDCB91166E157C00E2606A /* NDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDViewController.h; sourceTree = "<group>"; };
 		D8FDCB92166E157C00E2606A /* NDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDViewController.m; sourceTree = "<group>"; };
 		D8FDCB95166E157C00E2606A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NDViewController.xib; sourceTree = "<group>"; };
+		D8FDCB9D166E167D00E2606A /* NDRadioButtonControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDRadioButtonControl.h; sourceTree = "<group>"; };
+		D8FDCB9E166E167D00E2606A /* NDRadioButtonControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDRadioButtonControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		D8FDCB6D166E157C00E2606A = {
 			isa = PBXGroup;
 			children = (
+				D8FDCB9C166E167D00E2606A /* Classes */,
 				D8FDCB7F166E157C00E2606A /* NDRadioButtonControl */,
 				D8FDCB78166E157C00E2606A /* Frameworks */,
 				D8FDCB77166E157C00E2606A /* Products */,
@@ -105,6 +109,15 @@
 				D8FDCB8F166E157C00E2606A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8FDCB9C166E167D00E2606A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8FDCB9D166E167D00E2606A /* NDRadioButtonControl.h */,
+				D8FDCB9E166E167D00E2606A /* NDRadioButtonControl.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				D8FDCB86166E157C00E2606A /* main.m in Sources */,
 				D8FDCB8A166E157C00E2606A /* NDAppDelegate.m in Sources */,
 				D8FDCB93166E157C00E2606A /* NDViewController.m in Sources */,
+				D8FDCB9F166E167D00E2606A /* NDRadioButtonControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
